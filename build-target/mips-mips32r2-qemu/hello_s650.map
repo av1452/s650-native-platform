@@ -1,0 +1,25 @@
+     VMA      LMA     Size Align Out     In      Symbol
+       0        0 80100000     1 . = S650_LOAD_ADDRESS
+80100000 80100000       60    16 .text
+80100000 80100000       58     4         CMakeFiles/hello_s650.dir/tests/hello_s650.cpp.obj:(.text._start)
+80100000 80100000       58     1                 _start
+80100060 80100060        0    16         CMakeFiles/hello_s650.dir/tests/hello_s650.cpp.obj:(.text)
+80100060 80100060       31     1 .rodata
+80100060 80100060       31     1         CMakeFiles/hello_s650.dir/tests/hello_s650.cpp.obj:(.rodata)
+80100060 80100060       31     1                 s650_program_id
+801000a0 801000a0        0    16 .data
+801000a0 801000a0        0    16         CMakeFiles/hello_s650.dir/tests/hello_s650.cpp.obj:(.data)
+801000a0 801000a0        8    16 .got
+801000a0 801000a0        8    16         <internal>:(.got)
+801000b0 801000b0       20    16 .s650_testbuf
+801000b0 801000b0       20     4         CMakeFiles/hello_s650.dir/tests/hello_s650.cpp.obj:(.s650_testbuf)
+801000b0 801000b0       20     1                 s650_test_buffer
+801000d0 801000d0        0     1 
+801000d0 801000d0        0    16 .bss
+801000d0 801000d0        0    16         CMakeFiles/hello_s650.dir/tests/hello_s650.cpp.obj:(.bss)
+       0        0       70     4 .symtab
+       0        0       70     4         <internal>:(.symtab)
+       0        0       47     1 .shstrtab
+       0        0       47     1         <internal>:(.shstrtab)
+       0        0       4e     1 .strtab
+       0        0       4e     1         <internal>:(.strtab)

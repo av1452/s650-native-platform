@@ -1,0 +1,113 @@
+Start testing: Nov 03 21:57 CST
+----------------------------------------------------------
+1/1 Testing: s650_tests
+1/1 Test: s650_tests
+Command: "/Users/aidanvazquez/projects/s650-native-platform/build/s650_tests"
+Directory: /Users/aidanvazquez/projects/s650-native-platform/build
+"s650_tests" start time: Nov 03 21:57 CST
+Output:
+----------------------------------------------------------
+[ ok ] settings_defaults_roundtrip
+[ ok ] settings_roundtrip_with_changes
+[ ok ] settings_rejects_garbage
+[ ok ] settings_clamps_and_ignores_unknown
+[ ok ] settings_missing_keys_use_defaults
+[ ok ] settings_initialize_keeps_clock
+[ ok ] settings_effective_auto_lock_and_movie
+[ ok ] settings_density_presets
+[ ok ] settings_ev_labels
+[ ok ] settings_persist_to_file
+[ ok ] settings_persist_failure_is_reported
+[ ok ] settings_corrupt_file_is_ignored
+[ ok ] menu_opens_and_exits_with_menu_button
+[ ok ] menu_modern_navigation_levels
+[ ok ] menu_category_wraps_both_ways
+[ ok ] menu_remembers_category_and_row
+[ ok ] menu_auto_mode_locks_exposure_rows
+[ ok ] menu_picker_apply_and_cancel
+[ ok ] menu_picker_wraps
+[ ok ] menu_slider_live_adjust_confirm_and_restore
+[ ok ] menu_disabled_rows_explain_themselves
+[ ok ] menu_scene_row_only_in_scene_mode
+[ ok ] menu_boolean_row_toggles_immediately
+[ ok ] menu_datetime_editor_commit_and_cancel
+[ ok ] menu_initialize_dialog
+[ ok ] menu_format_dialog_defaults_to_cancel
+[ ok ] menu_classic_navigation_is_horizontal
+[ ok ] menu_setup_opens_display_options_and_returns
+[ ok ] menu_changes_are_persisted_through_storage
+[ ok ] display_options_changes_apply_and_custom_state
+[ ok ] playback_samples_and_protected_seed
+[ ok ] playback_index_navigation_and_paging
+[ ok ] playback_viewer_zoom_and_info_levels
+[ ok ] playback_protected_image_cannot_be_deleted
+[ ok ] playback_delete_asks_for_confirmation
+[ ok ] playback_protect_toggle_with_key
+[ ok ] playback_menu_delete_all_keeps_protected
+[ ok ] playback_menu_protect_and_delete_rows
+[ ok ] playback_empty_after_format_shows_empty_state
+[ ok ] playback_slideshow_advances_and_stops_on_key
+[ ok ] playback_slideshow_ends_at_last_image_unless_repeat
+[ ok ] storage_refuses_to_delete_protected_and_reports_full
+[ ok ] shooting_half_press_focuses_then_locks
+[ ok ] shooting_release_captures_a_simulated_photo
+[ ok ] shooting_zoom_and_mode_controls
+[ ok ] shooting_shortcuts_cycle_settings
+[ ok ] shooting_display_cycle_order
+[ ok ] shooting_self_timer_counts_down_and_captures
+[ ok ] shooting_self_timer_can_be_cancelled
+[ ok ] shooting_movie_record_start_stop
+[ ok ] shooting_leaving_movie_mode_stops_recording
+[ ok ] shooting_memory_full_is_reported
+[ ok ] shooting_without_camera_fails_visibly
+[ ok ] shooting_redeye_delays_the_shot_for_pre_flash
+[ ok ] shooting_without_camera_never_claims_focus
+[ ok ] system_starts_off_and_power_boots_with_animation
+[ ok ] system_any_key_skips_the_startup_animation
+[ ok ] system_startup_animation_can_be_disabled
+[ ok ] system_shutdown_sequence_ends_off
+[ ok ] system_off_ignores_buttons_except_power_and_ok
+[ ok ] system_auto_power_off_after_inactivity
+[ ok ] system_auto_power_off_can_be_disabled
+[ ok ] system_power_closes_open_dialog
+[ ok ] system_power_cycle_keeps_settings_and_state
+[ ok ] canvas_fill_alpha_and_clip
+[ ok ] canvas_line_and_polygon_cover_pixels
+[ ok ] font_metrics
+[ ok ] png_writer_produces_valid_signature
+[ ok ] render_is_deterministic_and_themes_differ
+[ ok ] render_selected_row_uses_theme_accent
+[ ok ] render_dialog_dims_the_screen
+[ ok ] render_brightness_setting_scales_luma
+[ ok ] render_every_screen_in_every_theme_without_crashing
+[ ok ] render_without_camera_shows_notice_not_picture
+[ ok ] histogram_is_normalised
+[ ok ] render_live_view_covers_whole_picture_area
+[ ok ] camera_unavailable_reports_and_fails_safely
+[ ok ] camera_simulated_labels_itself_as_simulation
+[ ok ] camera_simulated_exposure_responds_to_settings
+[ ok ] camera_simulated_flash_rules
+[ ok ] camera_simulated_capture_returns_image_and_meta
+[ ok ] strings_lookup_and_fallback
+[ ok ] input_key_mapping
+[ ok ] scripted_input_queue
+[ ok ] clock_formatting_and_normalisation
+[ ok ] storage_simulated_basics
+[ ok ] pixelformat_rgb565_known_values_and_roundtrip
+[ ok ] pixelformat_other_formats_bounded_error
+[ ok ] rawfb_stretch_to_480x240_has_expected_geometry
+[ ok ] rawfb_center_mode_letterboxes
+[ ok ] rawfb_word_order_and_dirty_rectangle
+[ ok ] rawfb_full_application_runs_unchanged_on_a_fixed_framebuffer
+[ ok ] test_pattern_is_deterministic_and_has_specified_features
+
+93 tests, 5217 checks, 0 failed checks, 0 failed tests
+<end of output>
+Test time =  12.97 sec
+----------------------------------------------------------
+Test Passed.
+"s650_tests" end time: Nov 03 21:57 CST
+"s650_tests" time elapsed: 00:00:12
+----------------------------------------------------------
+
+End testing: Nov 03 21:57 CST

@@ -1,0 +1,5 @@
+/Users/aidanvazquez/projects/s650-native-platform/build-target/mips-mips32-placeholder/CMakeFiles/hello_s650.dir
+/Users/aidanvazquez/projects/s650-native-platform/build-target/mips-mips32-placeholder/CMakeFiles/mips_sample.dir
+/Users/aidanvazquez/projects/s650-native-platform/build-target/mips-mips32-placeholder/CMakeFiles/isa_probe.dir
+/Users/aidanvazquez/projects/s650-native-platform/build-target/mips-mips32-placeholder/CMakeFiles/edit_cache.dir
+/Users/aidanvazquez/projects/s650-native-platform/build-target/mips-mips32-placeholder/CMakeFiles/rebuild_cache.dir

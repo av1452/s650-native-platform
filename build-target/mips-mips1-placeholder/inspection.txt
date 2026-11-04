@@ -1,0 +1,96 @@
+== file
+1024 bytes  /Users/aidanvazquez/projects/s650-native-platform/build-target/mips-mips1-placeholder/hello_s650.elf
+flat binary: 168 bytes, sha256 cc7abc11f525c91d9b6ad5d4952ede03214649e7c00c3361f53b3a752b7f5127
+sha256: f06268c7d66f601eb68fac136e0c27110d691236e2d0897f8213bf14fef2ba29
+== ELF header
+  Class:                             ELF32
+  Data:                              2's complement, big endian
+  Type:                              EXEC (Executable file)
+  Machine:                           MIPS R3000
+  Entry point address:               0x80000000
+  Flags:                             0x1001, noreorder, o32
+== sections
+There are 10 section headers, starting at offset 0x270:
+
+Section Headers:
+  [Nr] Name              Type            Address  Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .text             PROGBITS        80000000 0000c0 000060 00  AX  0   0 16
+  [ 2] .rodata           PROGBITS        80000060 000120 000031 00   A  0   0  1
+  [ 3] .data             PROGBITS        800000a0 000160 000000 00  WA  0   0 16
+  [ 4] .got              PROGBITS        800000a0 000160 000008 00 WAp  0   0 16
+  [ 5] .s650_testbuf     NOBITS          800000b0 000168 000020 00  WA  0   0 16
+  [ 6] .bss              NOBITS          800000d0 000168 000000 00  WA  0   0 16
+  [ 7] .symtab           SYMTAB          00000000 000168 000070 10      9   3  4
+  [ 8] .shstrtab         STRTAB          00000000 0001d8 000047 00      0   0  1
+  [ 9] .strtab           STRTAB          00000000 00021f 00004e 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  R (retain), p (processor specific)
+== program headers
+
+Elf file type is EXEC (Executable file)
+Entry point 0x80000000
+There are 4 program headers, starting at offset 52
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  LOAD           0x0000c0 0x80000000 0x80000000 0x00060 0x00060 R E 0x10
+  LOAD           0x000120 0x80000060 0x80000060 0x00031 0x00031 R   0x1
+  LOAD           0x000160 0x800000a0 0x800000a0 0x00008 0x00030 RW  0x10
+  GNU_STACK      0x000000 0x00000000 0x00000000 0x00000 0x00000 RW  0x0
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .text 
+   01     .rodata 
+   02     .data .got .s650_testbuf 
+   03     
+   None   .bss .symtab .shstrtab .strtab 
+== size
+   text	   data	    bss	    dec	    hex	filename
+    145	      8	     32	    185	     b9	/Users/aidanvazquez/projects/s650-native-platform/build-target/mips-mips1-placeholder/hello_s650.elf
+size_total: 1024 bytes (file)
+== symbols
+80000000 A S650_LOAD_ADDRESS
+80000000 T _start
+80000060 R s650_program_id
+800000b0 B s650_test_buffer
+80008090 d _gp
+undefined_symbols: 0
+== disassembly
+
+/Users/aidanvazquez/projects/s650-native-platform/build-target/mips-mips1-placeholder/hello_s650.elf:	file format elf32-mips
+
+Disassembly of section .text:
+
+80000000 <_start>:
+80000000:      	lui	$1, 0x5336 <S650_LOAD_ADDRESS+0x5336>
+80000004:      	ori	$1, $1, 0x3530 <S650_LOAD_ADDRESS+0x3530>
+80000008:      	lui	$2, 0x8000 <S650_LOAD_ADDRESS+0x8000>
+8000000c:      	sw	$1, 0xb0($2)
+80000010:      	addiu	$1, $2, 0xb0 <s650_test_buffer>
+80000014:      	lui	$2, 0x4845 <S650_LOAD_ADDRESS+0x4845>
+80000018:      	ori	$2, $2, 0x4c4c <S650_LOAD_ADDRESS+0x4c4c>
+8000001c:      	sw	$2, 0x4($1)
+80000020:      	addiu	$2, $zero, 0x1 <_start+0x1>
+80000024:      	sw	$2, 0x8($1)
+80000028:      	addiu	$2, $zero, 0x2 <_start+0x2>
+8000002c:      	sw	$2, 0xc($1)
+80000030:      	addiu	$2, $zero, 0x3 <_start+0x3>
+80000034:      	sw	$2, 0x10($1)
+80000038:      	addiu	$2, $zero, -0x1
+8000003c:      	addiu	$3, $zero, 0x5 <_start+0x5>
+80000040:      	addiu	$4, $zero, 0x4 <_start+0x4>
+80000044:      	sw	$4, 0x14($1)
+80000048:      	sw	$3, 0x18($1)
+8000004c:      	sw	$2, 0x1c($1)
+80000050:      	j	0x50 <_start+0x50>
+80000054:      	nop <_start>
+80000058:      	<unknown>
+8000005c:      	<unknown>
+stack_or_frame_register_use: none
+calls: none
+program_id: S650-HELLO-0001|EXPERIMENTAL|NOT-CAMERA-VERIFIED

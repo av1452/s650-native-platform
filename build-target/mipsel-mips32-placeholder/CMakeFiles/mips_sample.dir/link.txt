@@ -1,0 +1,1 @@
+/opt/homebrew/opt/lld/bin/ld.lld -T /Users/aidanvazquez/projects/s650-native-platform/target/linker/placeholder.ld --defsym=S650_LOAD_ADDRESS=0x80000000 -Map=mips_sample.map --no-dynamic-linker -z norelro --build-id=none --static --nmagic CMakeFiles/mips_sample.dir/tests/mips_sample.cpp.obj -o mips_sample.elf

@@ -1,0 +1,1 @@
+/opt/homebrew/opt/lld/bin/ld.lld -T /Users/aidanvazquez/projects/s650-native-platform/target/linker/placeholder.ld --defsym=S650_LOAD_ADDRESS=0x80000000 -Map=isa_probe.map --no-dynamic-linker -z norelro --build-id=none --static --nmagic CMakeFiles/isa_probe.dir/tests/isa_probe.cpp.obj -o isa_probe.elf

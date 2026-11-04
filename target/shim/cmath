@@ -1,0 +1,7 @@
+#pragma once
+namespace std {
+inline float floor(float x) { return __builtin_floorf(x); } inline float ceil(float x) { return __builtin_ceilf(x); } inline float fabs(float x) { return __builtin_fabsf(x); }
+inline float sqrt(float x) { return __builtin_sqrtf(x); } inline float sin(float x) { return __builtin_sinf(x); } inline float cos(float x) { return __builtin_cosf(x); }
+inline float pow(float a, float b) { return __builtin_powf(a, b); } inline float exp(float x) { return __builtin_expf(x); } inline float log(float x) { return __builtin_logf(x); }
+inline float log2(float x) { return __builtin_log2f(x); } inline float log10(float x) { return __builtin_log10f(x); } inline float hypot(float a, float b) { return __builtin_sqrtf(a * a + b * b); }
+}

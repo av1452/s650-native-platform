@@ -1,0 +1,6 @@
+variant:        mipsel-mips32r2-qemu
+compiler:       Homebrew clang version 23.1.4
+link address:   0x80100000 (QEMU-malta validation address)
+compile command (from compile_commands.json):
+/opt/homebrew/opt/llvm/bin/clang++ --target=mipsel-none-elf  -I/Users/aidanvazquez/projects/s650-native-platform/target/include -march=mips32r2 -mabi=32 -msoft-float -mno-abicalls -fno-pic -G0 -ffreestanding -fno-exceptions -fno-rtti -fno-threadsafe-statics -fno-unwind-tables -fno-asynchronous-unwind-tables -nostdlib -fno-stack-protector -O3 -DNDEBUG -O2 -Wall -Wextra -Wpedantic -o CMakeFiles/hello_s650.dir/tests/hello_s650.cpp.obj -c /Users/aidanvazquez/projects/s650-native-platform/target/tests/hello_s650.cpp
+status: EXPERIMENTAL, UNVERIFIED on camera hardware

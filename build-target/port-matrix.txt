@@ -1,0 +1,26 @@
+source                             A:none B:hdrs  first error with no standard library (A)
+src/camera/SimulatedCamera.cpp     fail   fail    'memory' file not found
+src/core/Application.cpp           fail   fail    'memory' file not found
+src/core/Clock.cpp                 fail   fail    'cstdint' file not found
+src/core/Options.cpp               fail   fail    'string' file not found
+src/core/Settings.cpp              fail   fail    'cstdint' file not found
+src/core/Strings.cpp               fail   fail    'string' file not found
+src/core/SystemController.cpp      fail   fail    'cstdint' file not found
+src/display/Font.cpp               fail   fail    'algorithm' file not found
+src/display/Framebuffer.cpp        fail   fail    'cstdint' file not found
+src/display/Icons.cpp              fail   fail    'cstdint' file not found
+src/display/Png.cpp                fail   fail    'string' file not found
+src/display/Scenes.cpp             fail   fail    'cstdint' file not found
+src/input/InputBackend.cpp         fail   fail    'deque' file not found
+src/storage/SimulatedStorage.cpp   fail   fail    'cstdint' file not found
+src/ui/Boot.cpp                    fail   fail    'cstdint' file not found
+src/ui/DisplayOptionsScreen.cpp    fail   fail    'algorithm' file not found
+src/ui/Hud.cpp                     fail   fail    'string' file not found
+src/ui/MenuModel.cpp               fail   fail    'functional' file not found
+src/ui/MenuScreen.cpp              fail   fail    'algorithm' file not found
+src/ui/PlaybackScreen.cpp          fail   fail    'algorithm' file not found
+src/ui/ShootingScreen.cpp          fail   fail    'algorithm' file not found
+src/ui/Theme.cpp                   fail   fail    'cstdint' file not found
+src/ui/UIController.cpp            fail   fail    'functional' file not found
+src/ui/Widgets.cpp                 fail   fail    'functional' file not found
+compiled: A 0/24, B 0/24

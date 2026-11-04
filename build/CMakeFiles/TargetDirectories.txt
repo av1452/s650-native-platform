@@ -1,0 +1,6 @@
+/Users/aidanvazquez/projects/s650-native-platform/build/CMakeFiles/s650_core.dir
+/Users/aidanvazquez/projects/s650-native-platform/build/CMakeFiles/s650_native.dir
+/Users/aidanvazquez/projects/s650-native-platform/build/CMakeFiles/s650_tests.dir
+/Users/aidanvazquez/projects/s650-native-platform/build/CMakeFiles/test.dir
+/Users/aidanvazquez/projects/s650-native-platform/build/CMakeFiles/edit_cache.dir
+/Users/aidanvazquez/projects/s650-native-platform/build/CMakeFiles/rebuild_cache.dir

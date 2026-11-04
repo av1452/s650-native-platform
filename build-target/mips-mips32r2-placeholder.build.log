@@ -1,0 +1,10 @@
+[ 16%] Building CXX object CMakeFiles/hello_s650.dir/tests/hello_s650.cpp.obj
+[ 33%] Linking CXX executable hello_s650.elf
+flat binary (generic, not a camera image format)
+[ 33%] Built target hello_s650
+[ 50%] Building CXX object CMakeFiles/mips_sample.dir/tests/mips_sample.cpp.obj
+[ 66%] Linking CXX executable mips_sample.elf
+[ 66%] Built target mips_sample
+[ 83%] Building CXX object CMakeFiles/isa_probe.dir/tests/isa_probe.cpp.obj
+[100%] Linking CXX executable isa_probe.elf
+[100%] Built target isa_probe

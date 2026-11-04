@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/aidanvazquez/projects/s650-native-platform/build-target/mipsel-mips32r2-placeholder",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ --target=mipsel-none-elf  -I/Users/aidanvazquez/projects/s650-native-platform/target/include -march=mips32r2 -mabi=32 -msoft-float -mno-abicalls -fno-pic -G0 -ffreestanding -fno-exceptions -fno-rtti -fno-threadsafe-statics -fno-unwind-tables -fno-asynchronous-unwind-tables -nostdlib -fno-stack-protector -O3 -DNDEBUG -O2 -Wall -Wextra -Wpedantic -o CMakeFiles/hello_s650.dir/tests/hello_s650.cpp.obj -c /Users/aidanvazquez/projects/s650-native-platform/target/tests/hello_s650.cpp",
+  "file": "/Users/aidanvazquez/projects/s650-native-platform/target/tests/hello_s650.cpp",
+  "output": "CMakeFiles/hello_s650.dir/tests/hello_s650.cpp.obj"
+},
+{
+  "directory": "/Users/aidanvazquez/projects/s650-native-platform/build-target/mipsel-mips32r2-placeholder",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ --target=mipsel-none-elf   -march=mips32r2 -mabi=32 -msoft-float -mno-abicalls -fno-pic -G0 -ffreestanding -fno-exceptions -fno-rtti -fno-threadsafe-statics -fno-unwind-tables -fno-asynchronous-unwind-tables -nostdlib -fno-stack-protector -O3 -DNDEBUG -O2 -Wall -Wextra -o CMakeFiles/mips_sample.dir/tests/mips_sample.cpp.obj -c /Users/aidanvazquez/projects/s650-native-platform/target/tests/mips_sample.cpp",
+  "file": "/Users/aidanvazquez/projects/s650-native-platform/target/tests/mips_sample.cpp",
+  "output": "CMakeFiles/mips_sample.dir/tests/mips_sample.cpp.obj"
+},
+{
+  "directory": "/Users/aidanvazquez/projects/s650-native-platform/build-target/mipsel-mips32r2-placeholder",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ --target=mipsel-none-elf   -march=mips32r2 -mabi=32 -msoft-float -mno-abicalls -fno-pic -G0 -ffreestanding -fno-exceptions -fno-rtti -fno-threadsafe-statics -fno-unwind-tables -fno-asynchronous-unwind-tables -nostdlib -fno-stack-protector -O3 -DNDEBUG -O2 -Wall -Wextra -o CMakeFiles/isa_probe.dir/tests/isa_probe.cpp.obj -c /Users/aidanvazquez/projects/s650-native-platform/target/tests/isa_probe.cpp",
+  "file": "/Users/aidanvazquez/projects/s650-native-platform/target/tests/isa_probe.cpp",
+  "output": "CMakeFiles/isa_probe.dir/tests/isa_probe.cpp.obj"
+}
+]

@@ -1,0 +1,28 @@
+     VMA      LMA     Size Align Out     In      Symbol
+       0        0 80100000     1 . = S650_LOAD_ADDRESS
+80100000 80100000      308    16 .text
+80100000 80100000       18     4         CMakeFiles/mips_sample.dir/tests/mips_sample.cpp.obj:(.text._start)
+80100000 80100000       18     1                 _start
+80100020 80100020      2e8    16         CMakeFiles/mips_sample.dir/tests/mips_sample.cpp.obj:(.text)
+80100020 80100020      290     1                 run()
+801002b0 801002b0       58     1                 fib(unsigned int)
+80100310 80100310      420    16 .rodata
+80100310 80100310      420    16         CMakeFiles/mips_sample.dir/tests/mips_sample.cpp.obj:(.rodata)
+80100730 80100730        0    16 .data
+80100730 80100730        0    16         CMakeFiles/mips_sample.dir/tests/mips_sample.cpp.obj:(.data)
+80100730 80100730        8    16 .got
+80100730 80100730        8    16         <internal>:(.got)
+80100740 80100740       40    16 .s650_testbuf
+80100740 80100740       40     4         CMakeFiles/mips_sample.dir/tests/mips_sample.cpp.obj:(.s650_testbuf)
+80100740 80100740       40     1                 s650_test_buffer
+80100780 80100780        0     1 
+80100780 80100780      800    16 .bss
+80100780 80100780      800    16         CMakeFiles/mips_sample.dir/tests/mips_sample.cpp.obj:(.bss)
+80100780 80100780      800     1                 s650_stack
+80100780 80100780      800     1                 s650_stack
+       0        0       a0     4 .symtab
+       0        0       a0     4         <internal>:(.symtab)
+       0        0       47     1 .shstrtab
+       0        0       47     1         <internal>:(.shstrtab)
+       0        0       6c     1 .strtab
+       0        0       6c     1         <internal>:(.strtab)

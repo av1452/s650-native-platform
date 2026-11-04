@@ -1,0 +1,25 @@
+     VMA      LMA     Size Align Out     In      Symbol
+       0        0 80100000     1 . = S650_LOAD_ADDRESS
+80100000 80100000       f0    16 .text
+80100000 80100000       ec     4         CMakeFiles/isa_probe.dir/tests/isa_probe.cpp.obj:(.text._start)
+80100000 80100000       ec     1                 _start
+801000f0 801000f0        0    16         CMakeFiles/isa_probe.dir/tests/isa_probe.cpp.obj:(.text)
+801000f0 801000f0        8     4 .rodata
+801000f0 801000f0        8     4         CMakeFiles/isa_probe.dir/tests/isa_probe.cpp.obj:(.rodata)
+801000f0 801000f0        8     1                 _start::bytes
+80100100 80100100        0    16 .data
+80100100 80100100        0    16         CMakeFiles/isa_probe.dir/tests/isa_probe.cpp.obj:(.data)
+80100100 80100100        8    16 .got
+80100100 80100100        8    16         <internal>:(.got)
+80100110 80100110       40    16 .s650_testbuf
+80100110 80100110       40     4         CMakeFiles/isa_probe.dir/tests/isa_probe.cpp.obj:(.s650_testbuf)
+80100110 80100110       40     1                 s650_test_buffer
+80100150 80100150        0     1 
+80100150 80100150        0    16 .bss
+80100150 80100150        0    16         CMakeFiles/isa_probe.dir/tests/isa_probe.cpp.obj:(.bss)
+       0        0       70     4 .symtab
+       0        0       70     4         <internal>:(.symtab)
+       0        0       47     1 .shstrtab
+       0        0       47     1         <internal>:(.shstrtab)
+       0        0       4f     1 .strtab
+       0        0       4f     1         <internal>:(.strtab)

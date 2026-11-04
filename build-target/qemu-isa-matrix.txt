@@ -1,0 +1,71 @@
+== 1. mips_sample on QEMU malta vs host-computed reference (R2 model 4KEc, R1 models 4KEcR1 / 4KEmR1 / 4Kc) ==
+PASS mips-mips1-qemu        cpu=4KEc 
+PASS mips-mips32-qemu       cpu=4KEc 
+PASS mips-mips32r2-qemu     cpu=4KEc 
+PASS mipsel-mips1-qemu      cpu=4KEc 
+PASS mipsel-mips32-qemu     cpu=4KEc 
+PASS mipsel-mips32r2-qemu   cpu=4KEc 
+PASS mips-mips1-qemu        cpu=4KEcR1 
+PASS mips-mips32-qemu       cpu=4KEcR1 
+PASS mips-mips32r2-qemu     cpu=4KEcR1 
+PASS mipsel-mips1-qemu      cpu=4KEcR1 
+PASS mipsel-mips32-qemu     cpu=4KEcR1 
+PASS mipsel-mips32r2-qemu   cpu=4KEcR1 
+PASS mips-mips1-qemu        cpu=4KEmR1 
+PASS mips-mips32-qemu       cpu=4KEmR1 
+PASS mips-mips32r2-qemu     cpu=4KEmR1 
+PASS mipsel-mips1-qemu      cpu=4KEmR1 
+PASS mipsel-mips32-qemu     cpu=4KEmR1 
+PASS mipsel-mips32r2-qemu   cpu=4KEmR1 
+PASS mips-mips1-qemu        cpu=4Kc 
+PASS mips-mips32-qemu       cpu=4Kc 
+PASS mips-mips32r2-qemu     cpu=4Kc 
+PASS mipsel-mips1-qemu      cpu=4Kc 
+PASS mipsel-mips32-qemu     cpu=4Kc 
+PASS mipsel-mips32r2-qemu   cpu=4Kc 
+
+== 2. isa_probe on every QEMU MIPS CPU model (EMULATION ONLY) ==
+
+-- little-endian (qemu-system-mipsel); probes: 1=MIPS-I sll/addu, 2=MIPS32 mul, 3=MIPS32 clz, 4=MIPS32 movn, 5=R2 ext, 6=R2 ins, 7=R2 seb, 8=R2 wsbh, 9=R2 rotr, 10=MIPS-I lwl/lwr
+CPU model          progress first-failing probe / notes
+24Kc               10       all 10 probes executed
+24KEc              10       all 10 probes executed
+24Kf               10       all 10 probes executed
+34Kf               10       all 10 probes executed
+4Kc                4        stopped after probe 4; next probe = R2 ext
+4KEc               10       all 10 probes executed
+4KEcR1             4        stopped after probe 4; next probe = R2 ext
+4KEm               10       all 10 probes executed
+4KEmR1             4        stopped after probe 4; next probe = R2 ext
+4Km                4        stopped after probe 4; next probe = R2 ext
+74Kf               10       all 10 probes executed
+I7200              0        stopped after probe 0; next probe = MIPS-I sll/addu
+M14K               10       all 10 probes executed
+M14Kc              10       all 10 probes executed
+mips32r6-generic   1        stopped after probe 1; next probe = MIPS32 mul
+P5600              10       all 10 probes executed
+XBurstR1           4        stopped after probe 4; next probe = R2 ext
+XBurstR2           10       all 10 probes executed
+
+-- big-endian (qemu-system-mips); probes: 1=MIPS-I sll/addu, 2=MIPS32 mul, 3=MIPS32 clz, 4=MIPS32 movn, 5=R2 ext, 6=R2 ins, 7=R2 seb, 8=R2 wsbh, 9=R2 rotr, 10=MIPS-I lwl/lwr
+CPU model          progress first-failing probe / notes
+24Kc               10       all 10 probes executed
+24KEc              10       all 10 probes executed
+24Kf               10       all 10 probes executed
+34Kf               10       all 10 probes executed
+4Kc                4        stopped after probe 4; next probe = R2 ext
+4KEc               10       all 10 probes executed
+4KEcR1             4        stopped after probe 4; next probe = R2 ext
+4KEm               10       all 10 probes executed
+4KEmR1             4        stopped after probe 4; next probe = R2 ext
+4Km                4        stopped after probe 4; next probe = R2 ext
+74Kf               10       all 10 probes executed
+I7200              0        stopped after probe 0; next probe = MIPS-I sll/addu
+M14K               10       all 10 probes executed
+M14Kc              10       all 10 probes executed
+mips32r6-generic   1        stopped after probe 1; next probe = MIPS32 mul
+P5600              10       all 10 probes executed
+XBurstR1           4        stopped after probe 4; next probe = R2 ext
+XBurstR2           10       all 10 probes executed
+
+EMULATION ONLY: QEMU CPU models are generic MIPS cores, not the ZR36473.
