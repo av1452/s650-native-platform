@@ -77,3 +77,4 @@ The visual and behavioural reference is `~/projects/s650-interface-concept/` (Ve
 
 ## Safety and scope
 Development and research only. No camera communication, USB commands, service modes, update utilities, flash/NAND access, board probing, or opening of the camera has taken place, and none is authorised by this project phase.
+# s650-native-platform
